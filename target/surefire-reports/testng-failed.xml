@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [OrangeHRMSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="1" name="SafariSuite(failed)" verbose="0">
+    <parameter name="os" value="mac"/>
+    <parameter name="browser" value="safari"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyValidLogin" invocation-numbers="0 3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_LoginTest -->
+    </classes>
+  </test> <!-- SafariSuite(failed) -->
+</suite> <!-- Failed suite [OrangeHRMSuite] -->

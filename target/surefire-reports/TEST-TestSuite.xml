@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="445.602" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/test-classes:/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/classes:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ashwinidevaraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/ashwinidevaraj/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/ashwinidevaraj/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/ashwinidevaraj/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ashwinidevaraj/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/ashwinidevaraj/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ashwinidevaraj/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/ashwinidevaraj/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi-ooxml/5.5.1/poi-ooxml-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.5.1/poi-ooxml-lite-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/ashwinidevaraj/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.3/log4j-slf4j2-impl-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/ashwinidevaraj/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/ashwinidevaraj/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ashwinidevaraj/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ashwinidevaraj/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ashwinidevaraj/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/surefire/surefirebooter-20260312202640110_3.jar /Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/surefire 2026-03-12T20-26-40_079-jvmRun1 surefire-20260312202640110_1tmp surefire_0-20260312202640110_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/test-classes:/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/classes:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-java/4.39.0/selenium-java-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-api/4.39.0/selenium-api-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.39.0/selenium-chrome-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.39.0/selenium-chromium-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-json/4.39.0/selenium-json-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.39.0/selenium-manager-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.39.0/selenium-devtools-v141-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.39.0/selenium-devtools-v142-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.39.0/selenium-devtools-v143-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.39.0/selenium-edge-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.39.0/selenium-firefox-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-http/4.39.0/selenium-http-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.39.0/selenium-ie-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.39.0/selenium-remote-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/ashwinidevaraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ashwinidevaraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/ashwinidevaraj/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-api/1.56.0/opentelemetry-api-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-context/1.56.0/opentelemetry-context-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-common/1.56.0/opentelemetry-common-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.56.0/opentelemetry-exporter-logging-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.56.0/opentelemetry-sdk-common-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.56.0/opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.56.0/opentelemetry-sdk-extension-autoconfigure-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.56.0/opentelemetry-sdk-trace-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.56.0/opentelemetry-sdk-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.56.0/opentelemetry-sdk-metrics-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.56.0/opentelemetry-sdk-logs-1.56.0.jar:/Users/ashwinidevaraj/.m2/repository/net/bytebuddy/byte-buddy/1.18.2/byte-buddy-1.18.2.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-os/4.39.0/selenium-os-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.39.0/selenium-safari-driver-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/org/seleniumhq/selenium/selenium-support/4.39.0/selenium-support-4.39.0.jar:/Users/ashwinidevaraj/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/ashwinidevaraj/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/ashwinidevaraj/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/ashwinidevaraj/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/ashwinidevaraj/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/ashwinidevaraj/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/ashwinidevaraj/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/ashwinidevaraj/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/ashwinidevaraj/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi/5.5.1/poi-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/commons-codec/commons-codec/1.20.0/commons-codec-1.20.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-collections4/4.5.0/commons-collections4-4.5.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/ashwinidevaraj/.m2/repository/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi-ooxml/5.5.1/poi-ooxml-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.5.1/poi-ooxml-lite-5.5.1.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.3.0/xmlbeans-5.3.0.jar:/Users/ashwinidevaraj/.m2/repository/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-core/2.25.3/log4j-core-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.3/log4j-slf4j2-impl-2.25.3.jar:/Users/ashwinidevaraj/.m2/repository/commons-io/commons-io/2.21.0/commons-io-2.21.0.jar:/Users/ashwinidevaraj/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/ashwinidevaraj/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/ashwinidevaraj/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/ashwinidevaraj/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/ashwinidevaraj/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/ashwinidevaraj/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ashwinidevaraj"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/target/surefire/surefirebooter-20260312202640110_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.17+0"/>
+    <property name="user.name" value="ashwinidevaraj"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ashwinidevaraj/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/fl/q6x0g3cx6735_73sr_s960rm0000gn/T/"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashwinidevaraj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.17+0"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifyValidLogin[Admin, admin123, valid, 1, utilities.ExcelUtility@554f0dfb](1)" classname="testCases.TC_LoginTest" time="5.395">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC_LoginTest.verifyValidLogin(TC_LoginTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[20:26:40.420 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/safari.xml"
+20:26:40.433 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+20:26:40.475 [main] INFO  utilities.ExtentReportManager - Starting Extent Report initialization
+20:26:40.525 [main] INFO  utilities.ExtentReportManager - Extent report initialized successfully
+20:26:40.531 [main] INFO  utilities.DataProviders - Fetching data for sheet: verifyValidLogin
+20:26:40.569 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:26:40.570 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:26:40.709 [main] INFO  testCases.TC_LoginTest - Execution environment: local
+20:26:40.710 [main] INFO  testCases.TC_LoginTest - Browser selected: safari
+20:26:40.710 [main] INFO  testCases.TC_LoginTest - Initializing LOCAL execution on browser: safari
+20:26:41.736 [main] INFO  testCases.TC_LoginTest - Driver initialized successfully
+20:26:41.736 [main] INFO  testCases.TC_LoginTest - OS -->
+20:26:46.014 [main] INFO  testCases.TC_LoginTest - Application launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+20:26:46.018 [main] INFO  utilities.ExtentReportManager - Starting test: verifyValidLogin
+20:26:46.025 [main] INFO  testCases.TC_LoginTest - Starting login test
+20:26:48.401 [main] ERROR utilities.ExtentReportManager - Test Failed: verifyValidLogin
+20:26:48.403 [main] INFO  utilities.ExtentReportManager - Capturing screenshot for failed test
+20:26:48.403 [main] INFO  utilities.ExtentReportManager - Driver instance: SafariDriver: Safari on mac (0E38C904-4B6A-4BE6-A1B8-3C421695A911)
+20:26:48.404 [main] INFO  utilities.ScreenshotUtility - Capturing screenshot for test: verifyValidLogin
+20:26:51.409 [main] INFO  utilities.ScreenshotUtility - Screenshot saved successfully at: /Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/screenshots/verifyValidLogin_20260312202648.png
+20:26:51.410 [main] INFO  utilities.ExtentReportManager - Screenshot attached to report: /Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/screenshots/verifyValidLogin_20260312202648.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyValidLogin[Admin, wrongpass, invalid, 2, utilities.ExcelUtility@554f0dfb](2)" classname="testCases.TC_LoginTest" time="2.3">
+    <system-out><![CDATA[20:26:51.413 [main] INFO  testCases.TC_LoginTest - Closing browser session
+20:27:01.524 [main] INFO  testCases.TC_LoginTest - Browser closed successfully
+20:27:01.529 [main] INFO  testCases.TC_LoginTest - Execution environment: local
+20:27:01.529 [main] INFO  testCases.TC_LoginTest - Browser selected: safari
+20:27:01.530 [main] INFO  testCases.TC_LoginTest - Initializing LOCAL execution on browser: safari
+20:27:02.425 [main] INFO  testCases.TC_LoginTest - Driver initialized successfully
+20:27:02.425 [main] INFO  testCases.TC_LoginTest - OS -->
+20:27:06.803 [main] INFO  testCases.TC_LoginTest - Application launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+20:27:06.804 [main] INFO  utilities.ExtentReportManager - Starting test: verifyValidLogin
+20:27:06.806 [main] INFO  testCases.TC_LoginTest - Starting login test
+20:27:09.104 [main] INFO  utilities.ExtentReportManager - Test Passed: verifyValidLogin
+]]></system-out>
+  </testcase>
+  <testcase name="verifyValidLogin[wronguser, admin123, invalid, 3, utilities.ExcelUtility@554f0dfb](3)" classname="testCases.TC_LoginTest" time="2.252">
+    <system-out><![CDATA[20:27:09.105 [main] INFO  testCases.TC_LoginTest - Closing browser session
+20:27:19.328 [main] INFO  testCases.TC_LoginTest - Browser closed successfully
+20:27:19.332 [main] INFO  testCases.TC_LoginTest - Execution environment: local
+20:27:19.333 [main] INFO  testCases.TC_LoginTest - Browser selected: safari
+20:27:19.333 [main] INFO  testCases.TC_LoginTest - Initializing LOCAL execution on browser: safari
+20:27:20.246 [main] INFO  testCases.TC_LoginTest - Driver initialized successfully
+20:27:20.246 [main] INFO  testCases.TC_LoginTest - OS -->
+20:27:25.334 [main] INFO  testCases.TC_LoginTest - Application launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+20:27:25.336 [main] INFO  utilities.ExtentReportManager - Starting test: verifyValidLogin
+20:27:25.336 [main] INFO  testCases.TC_LoginTest - Starting login test
+20:27:27.587 [main] INFO  utilities.ExtentReportManager - Test Passed: verifyValidLogin
+]]></system-out>
+  </testcase>
+  <testcase name="verifyValidLogin[, admin123, invalid, 4, utilities.ExcelUtility@554f0dfb](4)" classname="testCases.TC_LoginTest" time="355.434">
+    <failure message="java.util.concurrent.TimeoutException&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.2&apos;, java.version: &apos;17.0.17&apos;&#10;Driver info: org.openqa.selenium.safari.SafariDriver&#10;Command: [8AB1283F-54D6-4738-AD4C-FC5E3F7D13BB, findElement {value=//input[@placeholder=&apos;Username&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25C56, safari:platformVersion: 26.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}&#10;Session ID: 8AB1283F-54D6-4738-AD4C-FC5E3F7D13BB" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.2', java.version: '17.0.17'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Command: [8AB1283F-54D6-4738-AD4C-FC5E3F7D13BB, findElement {value=//input[@placeholder='Username'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 26.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:experimentalWebSocketUrl: false, safari:platformBuildVersion: 25C56, safari:platformVersion: 26.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}, webkit:alwaysAllowAutoplay: false}
+Session ID: 8AB1283F-54D6-4738-AD4C-FC5E3F7D13BB
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:428)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.BasePage.waitForVisibility(BasePage.java:61)
+	at pageObjects.LoginPage.waitForLoginPage(LoginPage.java:42)
+	at pageObjects.LoginPage.<init>(LoginPage.java:14)
+	at testCases.TC_LoginTest.verifyValidLogin(TC_LoginTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></failure>
+    <system-out><![CDATA[20:27:27.588 [main] INFO  testCases.TC_LoginTest - Closing browser session
+20:27:37.816 [main] INFO  testCases.TC_LoginTest - Browser closed successfully
+20:27:37.820 [main] INFO  testCases.TC_LoginTest - Execution environment: local
+20:27:37.821 [main] INFO  testCases.TC_LoginTest - Browser selected: safari
+20:27:37.821 [main] INFO  testCases.TC_LoginTest - Initializing LOCAL execution on browser: safari
+20:27:38.708 [main] INFO  testCases.TC_LoginTest - Driver initialized successfully
+20:27:38.708 [main] INFO  testCases.TC_LoginTest - OS -->
+20:27:42.785 [main] INFO  testCases.TC_LoginTest - Application launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+20:27:42.786 [main] INFO  utilities.ExtentReportManager - Starting test: verifyValidLogin
+20:27:42.787 [main] INFO  testCases.TC_LoginTest - Starting login test
+20:30:42.793 [main] ERROR utilities.ExtentReportManager - Test Failed: verifyValidLogin
+20:30:42.796 [main] INFO  utilities.ExtentReportManager - Capturing screenshot for failed test
+20:30:42.796 [main] INFO  utilities.ExtentReportManager - Driver instance: SafariDriver: Safari on mac (8AB1283F-54D6-4738-AD4C-FC5E3F7D13BB)
+20:30:42.797 [main] INFO  utilities.ScreenshotUtility - Capturing screenshot for test: verifyValidLogin
+20:33:38.217 [main] INFO  utilities.ScreenshotUtility - Screenshot saved successfully at: /Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/screenshots/verifyValidLogin_20260312203042.png
+20:33:38.218 [main] INFO  utilities.ExtentReportManager - Screenshot attached to report: /Users/ashwinidevaraj/Desktop/VIJAY/selenium-framework-temp/screenshots/verifyValidLogin_20260312203042.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyValidLogin[Admin, , invalid, 5, utilities.ExcelUtility@554f0dfb](5)" classname="testCases.TC_LoginTest" time="1.752">
+    <system-out><![CDATA[20:33:38.220 [main] INFO  testCases.TC_LoginTest - Closing browser session
+20:33:48.450 [main] INFO  testCases.TC_LoginTest - Browser closed successfully
+20:33:48.453 [main] INFO  testCases.TC_LoginTest - Execution environment: local
+20:33:48.454 [main] INFO  testCases.TC_LoginTest - Browser selected: safari
+20:33:48.454 [main] INFO  testCases.TC_LoginTest - Initializing LOCAL execution on browser: safari
+20:33:49.411 [main] INFO  testCases.TC_LoginTest - Driver initialized successfully
+20:33:49.411 [main] INFO  testCases.TC_LoginTest - OS -->
+20:33:53.537 [main] INFO  testCases.TC_LoginTest - Application launched: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+20:33:53.538 [main] INFO  utilities.ExtentReportManager - Starting test: verifyValidLogin
+20:33:53.539 [main] INFO  testCases.TC_LoginTest - Starting login test
+20:33:55.289 [main] INFO  utilities.ExtentReportManager - Test Passed: verifyValidLogin
+]]></system-out>
+  </testcase>
+</testsuite>
