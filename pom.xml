@@ -46,7 +46,7 @@
 					<suiteXmlFiles>
 
 						<suiteXmlFile>
-							safari.xml
+							${suiteXmlFile}
 						</suiteXmlFile>
 
 					</suiteXmlFiles>
